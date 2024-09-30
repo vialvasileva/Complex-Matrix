@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // СОЗДАНИЕ
-        // 3 квадратных матрицы: две размером 2х2, одна - 3х3
+        // 4 квадратных матрицы: две размером 2х2, одна - 2х3 и одна - 3х3
         Matrix matrix1 = Matrix.fill2x2();
         Matrix matrix2 = Matrix.fill2x2().transpose();
         Matrix matrix3 = Matrix.fill2x3();
